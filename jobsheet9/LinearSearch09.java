@@ -9,20 +9,27 @@ public class LinearSearch09 {
         int jml = sc.nextInt();
 
         int[] arrayInt = new int[jml];
-        int key = 0;
-        int hasil = 0;
+        int key;
 
         for (int i = 0; i < arrayInt.length; i++){
             System.out.print("Masukkan elemen array ke-" +i+ " : ");
-            arrayInt[i] = sc.nextInt();
+            int bill = sc.nextInt();
 
+            arrayInt[i] = bill;
+        }
+
+        System.out.print("Masukkan key yang ingin dicari : ");
+        key = sc.nextInt();
+
+        for (int i = 0; i < arrayInt.length; i++){
             if (arrayInt[i] == key){
-                hasil = i;
-                
-
+                System.out.println("Key ada dalam array pada posisi indeks ke-" + i);
+                break;
+            }else {
+                System.out.println("Key tidak ditemukan");  
+                break;
             }
         }
 
-        System.out.println("Key ada dalam array pada posisi indeks ke-" + hasil);
     }
 }
