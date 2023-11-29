@@ -21,5 +21,6 @@ public class Pemilihan2Percobaan1_09 {
         }else {
             System.out.println("Bukan Tahun Kabisat");
         }
+        input09.close();
 }
 }

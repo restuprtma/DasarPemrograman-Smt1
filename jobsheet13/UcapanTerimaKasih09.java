@@ -17,7 +17,13 @@ public class UcapanTerimaKasih09 {
         "You inspired in me a love for learning and made me feel like I cloud ask you anything.");
     }
     
+    public static void UcapanTambahan(String ucapan){
+        System.out.println(ucapan);
+    }
+
     public static void main(String[] args) {
         UcapanTerimaKasih();
+        String ucapan = "Wish you all the best";
+        UcapanTambahan(ucapan);
     }
 }

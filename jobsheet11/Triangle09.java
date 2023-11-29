@@ -12,7 +12,7 @@ public class Triangle09 {
         int i =0;
         while (i <= N) {
             int j = 0;
-            while (j < i) {
+            while (j <= i) {
                 System.out.print("*");
                 j++;
             }

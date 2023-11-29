@@ -33,5 +33,7 @@ public class Quiz09 {
                 break;
             }
         } while (true);
+        
+        input.close();
     }
 }
