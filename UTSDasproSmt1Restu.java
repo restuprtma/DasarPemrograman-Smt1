@@ -1,4 +1,4 @@
-package UTS;
+
 
 import java.util.Scanner;
 public class UTSDasproSmt1Restu {

@@ -24,7 +24,7 @@ public class NestedLoop_2341720076 {
                 sum += temperature;
             }
             double average = sum / temps[i].length;
-            System.out.printf("Rata-rata: %2f", average);
+            System.out.printf("Rata-rata: %2f \n", average);
         }
     }
 }
